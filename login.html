@@ -11,7 +11,6 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <title>Halaman Login</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
   <!-- My CSS -->
   <link rel="stylesheet" href="assets/css/login.css">
@@ -26,12 +25,14 @@
     <form action="" method="post">
       <h2 class="text-center">Log in</h2>
       <div class="form-group">
-        <input type="text" class="form-control" placeholder="Username atau Email" required="required">
+        <input type="text" name="loginkey" class="form-control" placeholder="Username atau Email" required="required">
       </div>
       <div class="form-group">
-        <input type="password" class="form-control" placeholder="Password" required="required" data-toggle="password">
-        <div class="input-group-append pt-1">
-          <div class="input-group-text"><i class="fa fa-eye"></i></div>
+        <div class="input-group">
+          <input type="password" name="password" class="form-control" placeholder="Password" required="required" data-toggle="password">
+          <div class="input-group-append">
+            <div class="input-group-text"><i class="fa fa-eye"></i></div>
+          </div>
         </div>
       </div>
       <div class="form-group">
