@@ -1,0 +1,53 @@
+font-face {
+    font-family: 'Catamaran';
+    src: url("../fonts/Catamaran-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url("../fonts/Lato-Regular.ttf") format('truetype');
+}
+
+* {
+    font-family: 'Catamaran';
+}
+
+.promo-carousel .card {
+    width: 300px !important;
+    margin: 0 10px !important;
+}
+
+.navbar {
+    background-color: #000 !important;
+    opacity: 0.8;
+}
+
+#main_navbar {
+    padding: 20px;
+}
+
+#main_navbar ul li a {
+    transition: 0.2s;
+}
+
+.form-control {
+    border-radius: 20px 20px 20px 20px;
+    margin: auto;
+}
+
+footer {
+    background-size: cover;
+}
+
+@media (max-width: 576px) {
+    .promo-card {
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 768px) {
+    .promo-carousel .card {
+        width: 200px !important;
+        margin: 0 10px !important;
+    }
+}
